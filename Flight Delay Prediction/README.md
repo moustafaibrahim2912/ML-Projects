@@ -6,7 +6,11 @@ This project builds a binary classification model to predict whether a flight wi
 The model predicts delay likelihood before a flight departs, using only information that would realistically be available at booking or gate time — with strict care taken to avoid data leakage from post-flight operational fields.
 
 ## Dataset
-The dataset was sourced from the BTS Airline On-Time Performance dataset.
+The dataset was sourced from the BTS Airline On-Time Performance dataset from Kaggle.
+A sample of the raw dataset is provided in:
+data/raw/
+
+Link to the full Dataset: [The Dataset](https://www.kaggle.com/datasets/mexwell/carrier-on-time-performance-dataset)
 
 A dataset of approximately **1.4 million flight records** was used, covering domestic U.S. flights across multiple airlines, routes, and airports.
 
